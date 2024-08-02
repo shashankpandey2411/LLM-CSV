@@ -1,0 +1,954 @@
+2024-08-02 23:59:13 [INFO] Question: coloured barplot for outlier detection
+2024-08-02 23:59:13 [INFO] Running PandasAI with google-palm LLM...
+2024-08-02 23:59:13 [INFO] Prompt ID: 78204d3f-3494-4a9e-8973-e3534e1b5e6b
+2024-08-02 23:59:13 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-02 23:59:13 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-02 23:59:13 [INFO] Executing Step 1: CacheLookup
+2024-08-02 23:59:13 [INFO] Executing Step 2: PromptGeneration
+2024-08-02 23:59:13 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-01-20,142.27000427246094,165.22999572753906,63.209999084472656,7929059527,94.0,10320000,AMZN
+2022-09-15,149.66000366210938,160.32000732421875,47.40999984741211,7291535562,517.9649658203125,131556500,BA
+2022-07-11,87.55000305175781,190.16000366210935,147.25,4923350352,103.31470489501952,1072000,NIO
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ coloured barplot for outlier detection
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-02 23:59:13 [INFO] Executing Step 3: CodeGenerator
+2024-08-02 23:59:14 [ERROR] Pipeline failed on step 3: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2024-08-02 23:59:32 [INFO] Question: coloured barplot for different different attributes
+2024-08-02 23:59:32 [INFO] Running PandasAI with google-palm LLM...
+2024-08-02 23:59:32 [INFO] Prompt ID: 1b1ddd22-6026-4096-b274-f29cb567d422
+2024-08-02 23:59:32 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-02 23:59:32 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-02 23:59:32 [INFO] Executing Step 1: CacheLookup
+2024-08-02 23:59:32 [INFO] Executing Step 2: PromptGeneration
+2024-08-02 23:59:32 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-04-27,164.38999938964844,119.41999816894533,47.27999877929688,240.97999572753903,149.94285583496094,10469900,MSFT
+2021-10-26,187.47000122070312,251.3999938964844,19.559999465942383,82.43000030517578,155.05999755859375,89178300,VZ
+2022-08-26,262.2699890136719,510.3599853515625,102.70999908447266,186.1999969482422,101.01000213623048,56787900,CRM
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ coloured barplot for different different attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-02 23:59:32 [INFO] Executing Step 3: CodeGenerator
+2024-08-02 23:59:33 [ERROR] Pipeline failed on step 3: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2024-08-02 23:59:58 [INFO] Question: barplot
+2024-08-02 23:59:58 [INFO] Running PandasAI with google-palm LLM...
+2024-08-02 23:59:58 [INFO] Prompt ID: 4e282794-8496-4c35-bf14-8aaaa4d5b8b1
+2024-08-02 23:59:58 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-02 23:59:58 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-02 23:59:58 [INFO] Executing Step 1: CacheLookup
+2024-08-02 23:59:58 [INFO] Executing Step 2: PromptGeneration
+2024-08-02 23:59:58 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-08-01,7998956461,164.89999389648438,95.77999877929688,144.05999755859375,261.94000244140625,82656000,KO
+2021-11-18,2818700415,21.68000030517578,194.5200042724609,164.22999572753906,53.42292404174805,8586000,COST
+2021-11-16,8664698662,50.09999847412109,52.77999877929688,157.92999267578125,138.80661010742188,15207100,TSM
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ barplot
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-02 23:59:58 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:00:01 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-08-01,7998956461,164.89999389648438,95.77999877929688,144.05999755859375,261.94000244140625,82656000,KO
+2021-11-18,2818700415,21.68000030517578,194.5200042724609,164.22999572753906,53.42292404174805,8586000,COST
+2021-11-16,8664698662,50.09999847412109,52.77999877929688,157.92999267578125,138.80661010742188,15207100,TSM
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ barplot
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:00:01 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+
+result = { "type": "plot", "value": "temp_chart.png" }
+
+# Plot the bar chart
+plt.bar(dfs[0]["Stock Name"], dfs[0]["Volume"])
+plt.savefig("temp_chart.png")
+            ```
+            
+2024-08-03 00:00:01 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:00:01 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:00:01 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:00:01 [INFO] 
+Code running:
+```
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.bar(dfs[0]['Stock Name'], dfs[0]['Volume'])
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+        ```
+2024-08-03 00:00:01 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:00:09 [INFO] Executing Step 7: ResultValidation
+2024-08-03 00:00:09 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+2024-08-03 00:00:09 [INFO] Executing Step 8: ResultParsing
+2024-08-03 00:00:33 [INFO] Question: correlation coefficent of all attributes
+2024-08-03 00:00:33 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:00:33 [INFO] Prompt ID: b5931ae5-a5eb-4710-8545-54398068f94f
+2024-08-03 00:00:33 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:00:33 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:00:33 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:00:33 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:00:33 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2021-11-03,5557142329,4257052215,137.41000366210938,80.12000274658203,4253441458,746400,BX
+2021-11-02,3476625703,5895999306,58.7599983215332,125.7699966430664,3489522768,36076500,ENPH
+2022-06-22,1684782618,7981522896,297.8900146484375,229.1499938964844,9974799674,4580300,COST
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ correlation coefficent of all attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:00:33 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:00:36 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2021-11-03,5557142329,4257052215,137.41000366210938,80.12000274658203,4253441458,746400,BX
+2021-11-02,3476625703,5895999306,58.7599983215332,125.7699966430664,3489522768,36076500,ENPH
+2022-06-22,1684782618,7981522896,297.8900146484375,229.1499938964844,9974799674,4580300,COST
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ correlation coefficent of all attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:00:36 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+result = { "type": "dataframe", "value": dfs[0].corr() }
+            ```
+            
+2024-08-03 00:00:36 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:00:36 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:00:36 [INFO] 
+Code running:
+```
+result = {'type': 'dataframe', 'value': dfs[0].corr()}
+        ```
+2024-08-03 00:00:36 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:00:36 [INFO] Executing Step 7: ResultValidation
+2024-08-03 00:00:36 [INFO] Answer: {'type': 'dataframe', 'value':                Open      High       Low     Close  Adj Close    Volume
+Open       1.000000  0.999723  0.999640  0.999309   0.999269 -0.251489
+High       0.999723  1.000000  0.999550  0.999650   0.999648 -0.249329
+Low        0.999640  0.999550  1.000000  0.999694   0.999599 -0.254478
+Close      0.999309  0.999650  0.999694  1.000000   0.999946 -0.251915
+Adj Close  0.999269  0.999648  0.999599  0.999946   1.000000 -0.249784
+Volume    -0.251489 -0.249329 -0.254478 -0.251915  -0.249784  1.000000}
+2024-08-03 00:00:36 [INFO] Executing Step 8: ResultParsing
+2024-08-03 00:01:16 [INFO] Question: heatmap for correlation
+2024-08-03 00:01:16 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:01:16 [INFO] Prompt ID: 2c123abf-0c71-4d2c-b744-a91031a69064
+2024-08-03 00:01:16 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:01:16 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:01:16 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:01:16 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:01:16 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-07-05,32.349998474121094,106.20999908447266,18.75,2250006082,9424239710,12142100,DIS
+2022-09-19,32.22999954223633,53.470001220703125,334.0299987792969,3739389630,3825314311,164723200,AMD
+2021-12-10,100.91999816894533,81.66000366210938,26.190000534057617,4420585708,2991961393,7792100,ENPH
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ heatmap for correlation
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:01:16 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:01:26 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-07-05,32.349998474121094,106.20999908447266,18.75,2250006082,9424239710,12142100,DIS
+2022-09-19,32.22999954223633,53.470001220703125,334.0299987792969,3739389630,3825314311,164723200,AMD
+2021-12-10,100.91999816894533,81.66000366210938,26.190000534057617,4420585708,2991961393,7792100,ENPH
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ heatmap for correlation
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:01:26 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+
+result = { "type": "plot", "value": "temp_chart.png" }
+
+# Plot the heatmap
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig("temp_chart.png")
+            ```
+            
+2024-08-03 00:01:26 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:01:26 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:01:26 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:01:26 [INFO] 
+Code running:
+```
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+        ```
+2024-08-03 00:01:26 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:01:26 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+NameError: name 'sns' is not defined
+
+2024-08-03 00:01:26 [WARNING] Failed to execute code retrying with a correction framework [retry number: 1]
+2024-08-03 00:01:26 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 00:01:26 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 00:01:26 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-07-05,32.349998474121094,106.20999908447266,18.75,2250006082,9424239710,12142100,DIS
+2022-09-19,32.22999954223633,53.470001220703125,334.0299987792969,3739389630,3825314311,164723200,AMD
+2021-12-10,100.91999816894533,81.66000366210938,26.190000534057617,4420585708,2991961393,7792100,ENPH
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ heatmap for correlation
+
+You generated this python code:
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+NameError: name 'sns' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 00:01:26 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 00:01:28 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-07-05,32.349998474121094,106.20999908447266,18.75,2250006082,9424239710,12142100,DIS
+2022-09-19,32.22999954223633,53.470001220703125,334.0299987792969,3739389630,3825314311,164723200,AMD
+2021-12-10,100.91999816894533,81.66000366210938,26.190000534057617,4420585708,2991961393,7792100,ENPH
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ heatmap for correlation
+
+You generated this python code:
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+NameError: name 'sns' is not defined
+
+
+Fix the python code above and return the new python code:
+            
+2024-08-03 00:01:28 [INFO] Code generated:
+            ```
+            import seaborn as sns
+
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+            ```
+            
+2024-08-03 00:01:28 [INFO] Executing Step 2: CodeCleaning
+2024-08-03 00:01:28 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:01:28 [INFO] 
+Code running:
+```
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+        ```
+2024-08-03 00:01:28 [ERROR] Failed with error: Traceback (most recent call last):
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+NameError: name 'sns' is not defined
+
+2024-08-03 00:01:28 [WARNING] Failed to execute code retrying with a correction framework [retry number: 2]
+2024-08-03 00:01:28 [INFO] Executing Pipeline: ErrorCorrectionPipeline
+2024-08-03 00:01:28 [INFO] Executing Step 0: ErrorPromptGeneration
+2024-08-03 00:01:28 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-07-05,32.349998474121094,106.20999908447266,18.75,2250006082,9424239710,12142100,DIS
+2022-09-19,32.22999954223633,53.470001220703125,334.0299987792969,3739389630,3825314311,164723200,AMD
+2021-12-10,100.91999816894533,81.66000366210938,26.190000534057617,4420585708,2991961393,7792100,ENPH
+</dataframe>
+
+
+The user asked the following question:
+### QUERY
+ heatmap for correlation
+
+You generated this python code:
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.figure(figsize=(10, 10))
+sns.heatmap(dfs[0].corr(), annot=True)
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+
+It fails with the following error:
+Traceback (most recent call last):
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 85, in execute
+    result = self.execute_code(code_to_run, code_context)
+  File "C:\Users\pande\anaconda3\envs\llm-env\lib\site-packages\pandasai\pipelines\chat\code_execution.py", line 171, in execute_code
+    exec(code, environment)
+  File "<string>", line 3, in <module>
+NameError: name 'sns' is not defined
+
+
+Fix the python code above and return the new python code:
+2024-08-03 00:01:28 [INFO] Executing Step 1: CodeGenerator
+2024-08-03 00:01:29 [ERROR] Pipeline failed on step 1: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2024-08-03 00:01:29 [ERROR] Pipeline failed on step 6: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2024-08-03 00:02:01 [INFO] Question: heatmap for correlation between attributes
+2024-08-03 00:02:01 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:02:01 [INFO] Prompt ID: c8a15aa2-f1d7-4e7b-80c3-1df44741b9d0
+2024-08-03 00:02:01 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:02:01 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:02:01 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:02:01 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:02:02 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2021-12-07,47.91999816894531,0400779578,9180769766,2537520175,5121850585,98245300,BX
+2022-04-14,485.489990234375,0314929267,3723421110,3907533163,7862357459,6682300,NOC
+2022-06-01,48.61000061035156,8320253471,8353555061,9405939490,7496290545,27327900,F
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ heatmap for correlation between attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:02:02 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:02:04 [ERROR] Pipeline failed on step 3: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+2024-08-03 00:02:14 [INFO] Question: scatterplot for correlation between attributes
+2024-08-03 00:02:14 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:02:14 [INFO] Prompt ID: f4b241d2-d594-4c1e-919d-fdbbbed3ca18
+2024-08-03 00:02:14 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:02:14 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:02:14 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:02:14 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:02:14 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-02-16,52.619998931884766,2292095927,35.290000915527344,137.99000549316406,3396744367,23217400,ENPH
+2021-11-23,341.5633239746094,7313610486,116.70999908447266,17.540000915527344,7627856556,72924300,CRM
+2021-10-26,13.789999961853027,1976327007,19.729999542236328,384.989990234375,0961183643,24484500,KO
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ scatterplot for correlation between attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:02:14 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:02:17 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-02-16,52.619998931884766,2292095927,35.290000915527344,137.99000549316406,3396744367,23217400,ENPH
+2021-11-23,341.5633239746094,7313610486,116.70999908447266,17.540000915527344,7627856556,72924300,CRM
+2021-10-26,13.789999961853027,1976327007,19.729999542236328,384.989990234375,0961183643,24484500,KO
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ scatterplot for correlation between attributes
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:02:17 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+
+result = { "type": "plot", "value": "temp_chart.png" }
+
+for df in dfs:
+    plt.scatter(df["Open"], df["Close"])
+    plt.savefig("temp_chart.png")
+            ```
+            
+2024-08-03 00:02:17 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:02:17 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:02:17 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:02:17 [INFO] 
+Code running:
+```
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+for df in dfs:
+    plt.scatter(df['Open'], df['Close'])
+    plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+        ```
+2024-08-03 00:02:17 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:02:17 [INFO] Executing Step 7: ResultValidation
+2024-08-03 00:02:17 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+2024-08-03 00:02:17 [INFO] Executing Step 8: ResultParsing
+2024-08-03 00:02:45 [INFO] Question: scatterplot for correlation between attributes and give the labeld plot
+2024-08-03 00:02:45 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:02:45 [INFO] Prompt ID: 184072f4-4e00-469d-a767-9020bf25f371
+2024-08-03 00:02:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:02:45 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:02:45 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:02:45 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:02:45 [INFO] Using prompt: <dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-09-12,4213527775,113.88999938964844,2015232056,184.0,36.47418594360352,11488300,ENPH
+2022-07-20,5612925562,334.739990234375,9871955325,157.63999938964844,11.38623332977295,8691500,BA
+2021-11-08,5850593934,16.200000762939453,9136619663,58.650001525878906,88.69834899902344,20497000,NIO
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ scatterplot for correlation between attributes and give the labeld plot
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:02:45 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:02:48 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:6300x8
+Date,Open,High,Low,Close,Adj Close,Volume,Stock Name
+2022-09-12,4213527775,113.88999938964844,2015232056,184.0,36.47418594360352,11488300,ENPH
+2022-07-20,5612925562,334.739990234375,9871955325,157.63999938964844,11.38623332977295,8691500,BA
+2021-11-08,5850593934,16.200000762939453,9136619663,58.650001525878906,88.69834899902344,20497000,NIO
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ scatterplot for correlation between attributes and give the labeld plot
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:02:48 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+
+result = { "type": "plot", "value": "temp_chart.png" }
+
+# Plot the scatterplot
+plt.scatter(dfs[0]["Open"], dfs[0]["Close"])
+plt.xlabel("Open")
+plt.ylabel("Close")
+plt.savefig("temp_chart.png")
+            ```
+            
+2024-08-03 00:02:48 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:02:48 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:02:48 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:02:48 [INFO] 
+Code running:
+```
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+plt.scatter(dfs[0]['Open'], dfs[0]['Close'])
+plt.xlabel('Open')
+plt.ylabel('Close')
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+        ```
+2024-08-03 00:02:48 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:02:48 [INFO] Executing Step 7: ResultValidation
+2024-08-03 00:02:48 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+2024-08-03 00:02:48 [INFO] Executing Step 8: ResultParsing
+2024-08-03 00:06:10 [INFO] Question: piechart for gender
+2024-08-03 00:06:10 [INFO] Running PandasAI with google-palm LLM...
+2024-08-03 00:06:10 [INFO] Prompt ID: d874e8c8-a0b0-4e7c-8950-90ff078639e2
+2024-08-03 00:06:10 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-08-03 00:06:10 [INFO] Executing Step 0: ValidatePipelineInput
+2024-08-03 00:06:10 [INFO] Executing Step 1: CacheLookup
+2024-08-03 00:06:10 [INFO] Executing Step 2: PromptGeneration
+2024-08-03 00:06:10 [INFO] Using prompt: <dataframe>
+dfs[0]:237519x7
+State,Year,Type_code,Type,Gender,Age_group,Total
+Gujarat,2002,Causes,Failure in Examination,Male,45-59,4265
+Odisha,2004,Professional_Profile,By Overdose of sleeping pills,Female,30-44,1685
+Madhya Pradesh,2003,Social_Status,Physical Abuse (Rape/Incest Etc.),Male,0-14,1113
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ piechart for gender
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-08-03 00:06:10 [INFO] Executing Step 3: CodeGenerator
+2024-08-03 00:06:16 [INFO] Prompt used:
+            
+<dataframe>
+dfs[0]:237519x7
+State,Year,Type_code,Type,Gender,Age_group,Total
+Gujarat,2002,Causes,Failure in Examination,Male,45-59,4265
+Odisha,2004,Professional_Profile,By Overdose of sleeping pills,Female,30-44,1685
+Madhya Pradesh,2003,Social_Status,Physical Abuse (Rape/Incest Etc.),Male,0-14,1113
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ piechart for gender
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-08-03 00:06:16 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+
+df = dfs[0]
+
+# Create a pie chart
+plt.pie(df['Gender'].value_counts(), labels=df['Gender'].unique(), autopct='%1.1f%%')
+plt.title('Gender Distribution')
+plt.savefig('temp_chart.png')
+
+# Declare result var
+result = { "type": "plot", "value": "temp_chart.png" }
+            ```
+            
+2024-08-03 00:06:16 [INFO] Executing Step 4: CachePopulation
+2024-08-03 00:06:16 [INFO] Executing Step 5: CodeCleaning
+2024-08-03 00:06:16 [INFO] Saving charts to C:\Users\pande\Downloads\LLM-CSV\exports\charts\temp_chart.png
+2024-08-03 00:06:16 [INFO] 
+Code running:
+```
+df = dfs[0]
+plt.pie(df['Gender'].value_counts(), labels=df['Gender'].unique(), autopct='%1.1f%%')
+plt.title('Gender Distribution')
+plt.savefig('C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png')
+result = {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+        ```
+2024-08-03 00:06:16 [INFO] Executing Step 6: CodeExecution
+2024-08-03 00:06:16 [INFO] Executing Step 7: ResultValidation
+2024-08-03 00:06:16 [INFO] Answer: {'type': 'plot', 'value': 'C:/Users/pande/Downloads/LLM-CSV/exports/charts/temp_chart.png'}
+2024-08-03 00:06:16 [INFO] Executing Step 8: ResultParsing
