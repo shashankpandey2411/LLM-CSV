@@ -104,7 +104,7 @@ if uploaded_file:
 
     if option == "Statistical Analysis and Visualization":
         # Statistical Analysis and Visualization code
-        llm = GooglePalm(api_key="AIzaSyCMX48owzYyq0oCrilvA08sP-Lren0b3NI")
+        llm = GooglePalm(api_key="AIzaSy*******************-Lren0b3NI")
         sdf = SmartDataframe(df, config={"llm": llm})
         query = st.text_input(label='Enter your query')
         Analyze = st.button(label='Analyze')
